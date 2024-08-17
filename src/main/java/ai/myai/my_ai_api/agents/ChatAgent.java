@@ -1,0 +1,18 @@
+package ai.myai.my_ai_api.agents;
+
+import dev.langchain4j.service.SystemMessage;
+
+public interface ChatAgent {
+
+    @SystemMessage("""
+                You are a helpful assistant.
+                Your task is to answer questions by providing clear and concise answers.
+                
+                Follow these instructions:
+                - Your answer should be clear and concise, maximum 3-4 sentences
+                - If you do not know the answer, you can say so
+                - Use the information provided to answer, do not make up information
+                - Important: Do not mention that you have been provided with additional information or documents
+                """)
+    String chat(String userMessage);
+}
