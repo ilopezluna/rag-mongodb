@@ -7,7 +7,7 @@ import org.testcontainers.ollama.OllamaContainer;
 import org.testcontainers.utility.DockerImageName;
 
 @TestConfiguration(proxyBeanMethods = false)
-class TestcontainersConfiguration {
+public class TestcontainersConfiguration {
 
     @Bean
     public MongoDBAtlasContainer mongoDBAtlasContainer(DynamicPropertyRegistry registry) {
