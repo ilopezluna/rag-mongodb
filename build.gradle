@@ -25,7 +25,12 @@ dependencies {
 	implementation 'dev.langchain4j:langchain4j-core'
 	implementation 'dev.langchain4j:langchain4j-ollama'
 	implementation 'dev.langchain4j:langchain4j-embeddings-all-minilm-l6-v2-q'
-	implementation 'dev.langchain4j:langchain4j-pgvector'
+	implementation 'dev.langchain4j:langchain4j-mongodb-atlas'
+	implementation 'org.mongodb:mongodb-driver-sync:4.11.1'
+	implementation 'org.mongodb:mongodb-driver-core:4.11.1'
+	implementation 'org.mongodb:bson:4.11.1'
+	implementation 'org.tinylog:tinylog-impl:2.7.0'
+
 
 	compileOnly 'org.projectlombok:lombok'
 	annotationProcessor 'org.projectlombok:lombok'
@@ -34,7 +39,7 @@ dependencies {
 	testImplementation 'org.springframework.boot:spring-boot-testcontainers'
 	testImplementation 'io.projectreactor:reactor-test'
 	testImplementation 'org.testcontainers:junit-jupiter'
-	testImplementation 'org.testcontainers:postgresql'
+	testImplementation 'org.testcontainers:mongodb'
 	testImplementation 'org.testcontainers:ollama'
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 }

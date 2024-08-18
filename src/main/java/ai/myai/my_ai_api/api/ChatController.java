@@ -16,9 +16,16 @@ public class ChatController {
 
     final ChatAgent straight;
 
+    final ChatAgent ragged;
+
     @GetMapping("/straight")
     ChatResponse straight(@RequestParam String question) {
         return new ChatResponse(straight.chat(question));
+    }
+
+    @GetMapping("/ragged")
+    ChatResponse ragged(@RequestParam String question) {
+        return new ChatResponse(ragged.chat(question));
     }
 
 
