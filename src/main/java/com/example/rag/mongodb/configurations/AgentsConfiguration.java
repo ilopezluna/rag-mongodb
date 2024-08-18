@@ -1,6 +1,6 @@
-package ai.myai.my_ai_api.configurations;
+package com.example.rag.mongodb.configurations;
 
-import ai.myai.my_ai_api.agents.ChatAgent;
+import com.example.rag.mongodb.agents.ChatAgent;
 import dev.langchain4j.data.segment.TextSegment;
 import dev.langchain4j.memory.chat.MessageWindowChatMemory;
 import dev.langchain4j.model.chat.ChatLanguageModel;

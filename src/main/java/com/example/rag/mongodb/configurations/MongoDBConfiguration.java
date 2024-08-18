@@ -1,4 +1,4 @@
-package ai.myai.my_ai_api.configurations;
+package com.example.rag.mongodb.configurations;
 
 import com.mongodb.*;
 import com.mongodb.client.MongoClient;

@@ -1,13 +1,13 @@
-package ai.myai.my_ai_api;
+package com.example.rag.mongodb;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MyAiApiApplication {
+public class Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MyAiApiApplication.class, args);
+		SpringApplication.run(Application.class, args);
 	}
 
 }

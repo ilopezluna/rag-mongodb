@@ -1,12 +1,12 @@
-package ai.myai.my_ai_api;
+package com.example.rag.mongodb;
 
 import org.springframework.boot.SpringApplication;
 
-public class TestMyAiApiApplication {
+public class TestApplication {
 
 	public static void main(String[] args) {
 		SpringApplication
-				.from(MyAiApiApplication::main)
+				.from(Application::main)
 				.with(TestcontainersConfiguration.class).run(args);
 	}
 

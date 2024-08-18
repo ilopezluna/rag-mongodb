@@ -1,4 +1,4 @@
-package ai.myai.my_ai_api.agents;
+package com.example.rag.mongodb.agents;
 
 import dev.langchain4j.service.SystemMessage;
 

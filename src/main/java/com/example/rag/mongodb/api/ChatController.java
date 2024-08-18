@@ -1,6 +1,6 @@
-package ai.myai.my_ai_api.api;
+package com.example.rag.mongodb.api;
 
-import ai.myai.my_ai_api.agents.ChatAgent;
+import com.example.rag.mongodb.agents.ChatAgent;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.GetMapping;

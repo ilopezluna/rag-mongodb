@@ -1,4 +1,4 @@
-package ai.myai.my_ai_api.configurations;
+package com.example.rag.mongodb.configurations;
 
 import dev.langchain4j.model.chat.ChatLanguageModel;
 import dev.langchain4j.model.ollama.OllamaChatModel;

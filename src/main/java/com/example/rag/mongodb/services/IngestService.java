@@ -1,4 +1,4 @@
-package ai.myai.my_ai_api.services;
+package com.example.rag.mongodb.services;
 
 import dev.langchain4j.data.embedding.Embedding;
 import dev.langchain4j.data.segment.TextSegment;

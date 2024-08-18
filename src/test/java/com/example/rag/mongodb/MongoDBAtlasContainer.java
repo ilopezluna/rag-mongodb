@@ -1,4 +1,4 @@
-package ai.myai.my_ai_api;
+package com.example.rag.mongodb;
 
 import org.testcontainers.containers.GenericContainer;
 import org.testcontainers.containers.wait.strategy.Wait;

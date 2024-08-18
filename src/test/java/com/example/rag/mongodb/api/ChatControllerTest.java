@@ -1,9 +1,9 @@
-package ai.myai.my_ai_api.api;
+package com.example.rag.mongodb.api;
 
-import ai.myai.my_ai_api.MyAiApiApplication;
-import ai.myai.my_ai_api.TestcontainersConfiguration;
-import ai.myai.my_ai_api.ValidatorAgent;
-import ai.myai.my_ai_api.ValidatorAgentConfiguration;
+import com.example.rag.mongodb.Application;
+import com.example.rag.mongodb.TestcontainersConfiguration;
+import com.example.rag.mongodb.ValidatorAgent;
+import com.example.rag.mongodb.ValidatorAgentConfiguration;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -13,7 +13,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 @SpringBootTest(
         classes = {
-                MyAiApiApplication.class,
+                Application.class,
                 TestcontainersConfiguration.class,
                 ValidatorAgentConfiguration.class
         },
